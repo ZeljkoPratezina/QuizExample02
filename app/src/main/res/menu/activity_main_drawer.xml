@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+    </group>
+
+    <item android:title="List of Quizes">
+        <menu>
+            <item
+                android:id="@+id/nav_quizone"
+                android:icon="@drawable/history"
+                android:title="@string/history_quiz" />
+            <item
+                android:id="@+id/nav_quiztwo"
+                android:icon="@drawable/geography"
+                android:title="@string/geography_quiz" />
+            <item
+                android:id="@+id/nav_quizthree"
+                android:icon="@drawable/science"
+                android:title="@string/science_quiz" />
+            <item
+                android:id="@+id/nav_quizfour"
+                android:icon="@drawable/sport"
+                android:title="@string/sport_quiz" />
+        </menu>
+    </item>
+
+
+</menu>
